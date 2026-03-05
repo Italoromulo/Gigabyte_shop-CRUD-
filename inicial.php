@@ -560,7 +560,7 @@ function renderProduto($row)
                     <h4>Links Rápidos</h4>
                     <ul class="list-unstyled">
                         <?php if ($isAdmin): ?>
-                            <li><a href="cadastro.php" class="footer-link">Painel Admin</a></li>
+                            <li><a href="cadastro.php" class="footer-link">Painel Adm</a></li>
                             <li><a href="consul_todos.php" class="footer-link">Gerenciar Produtos</a></li>
                         <?php elseif ($estaLogado): ?>
                             <li><a href="#" class="footer-link">Minha Conta</a></li>
